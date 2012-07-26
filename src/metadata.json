@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.4"], 
+    "uuid": "updateindicator@aegirxx.googlemail.com", 
+    "name": "Update Indicator", 
+    "description": "A top panel indicator that shows new updates and provides shortcuts to refresh and install new updates.",
+    "settings-schema": "org.gnome.shell.extensions.updateindicator"
+}

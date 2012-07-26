@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.updateindicator.position">
+    <value value="0" nick="center"/>
+    <value value="1" nick="right"/>
+    <value value="2" nick="left"/>
+  </enum>
+  <schema path="/org/gnome/shell/extensions/updateindicator/" id="org.gnome.shell.extensions.updateindicator">
+    <key type="i" name="update-interval">
+      <default>3600</default>
+      <range min="1" max="16777215"/>
+      <summary>Update interval</summary>
+      <description>An integer holding the number of seconds between two updates of the repository meta-data.</description>
+    </key>
+    <key name="position-in-panel" enum="org.gnome.shell.extensions.updateindicator.position">
+      <default>'center'</default>
+      <summary>Position in panel</summary>
+      <description>Set the position of this GNOME Shell extension in the panel to either 'center', 'left' or 'right'.</description>
+    </key>
+    <key type="i" name="order">
+      <default>0</default>
+      <range min="0" max="16777215"/>
+      <summary>Panel order</summary>
+      <description>Set the order of this GNOME Shell extension in the panel. If this is set to '0' the extension is placed at the default position.</description>
+    </key>
+    <key type="b" name="hide-if-none">
+      <default>false</default>
+      <summary>Hide button if no updates are available</summary>
+    </key>
+  </schema>
+</schemalist>

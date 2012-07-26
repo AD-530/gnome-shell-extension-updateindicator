@@ -1,0 +1,21 @@
+.popup-menu-item:disabled {
+    color: #aaa;
+}
+
+.popup-menu-item:blocked {
+    color: #f00;
+}
+
+StEntry#TimeoutEntry {
+    width: 50px;
+    max-width: 50px;
+}
+
+.tooltip-label {
+    border-radius: 7px;
+    padding: 4px 12px;
+    background-color: rgba(0,0,0,0.9);
+    border-width: 2px;
+    border-color: #a5a5a5;
+    text-align: left;
+}
