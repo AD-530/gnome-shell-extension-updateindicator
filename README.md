@@ -6,5 +6,6 @@ gnome-shell-extension-updateindicator adds an indicator to the top panel that sh
 
 ### Installation
 
-        * Install the PackageKit daemon (http://www.packagekit.org/) and the appropriate backend (e.g. apt on debian or ubuntu systems)
+        * Install the PackageKit daemon (http://www.packagekit.org/) 
+          and the appropriate backend (e.g. apt on debian or ubuntu systems)
         * Go to https://extensions.gnome.org/extension/31/update-indicator/ and install the extension
