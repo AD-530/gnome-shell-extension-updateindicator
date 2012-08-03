@@ -100,6 +100,7 @@ UpdateButton.prototype = {
         this._refreshRunning = false;
         this._actionRefresh();
         this._startTimeout();
+        this._pkgDaemon.connect('UpdatesChanged', Lang.bind(this, this._actionRefresh));
     },
 	
     _startTimeout: function() {
